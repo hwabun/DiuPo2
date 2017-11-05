@@ -49,9 +49,11 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"your mather fucker",Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent("com.example.activitytest.ACTION_START");
 
+
                 startActivity(intent);
             }
         });
+
         Button button3=(Button)findViewById(R.id.button3);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
